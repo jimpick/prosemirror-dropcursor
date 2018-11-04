@@ -1,5 +1,5 @@
-import {Plugin} from "prosemirror-state"
-import {dropPoint} from "prosemirror-transform"
+import {Plugin} from "@jimpick/prosemirror-state"
+import {dropPoint} from "@jimpick/prosemirror-transform"
 
 export function dropCursor(options = {}) {
   return new Plugin({
